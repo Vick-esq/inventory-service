@@ -6,7 +6,7 @@ env:
   DB_PASSWORD: database123
 jobs:
   code_checks:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Set up MySQL
       run: |
